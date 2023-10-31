@@ -43,7 +43,7 @@ def adicionar():
       leitor_csv = arq.read()
       print(leitor_csv)
   except FileNotFoundError as erro:
-    print(f'Erro: {erro}. O arquivo não foi encontrado.')
+    print(f'Erro: {erro}. Arquivo não encontrado.')
 
 def verificar():
   produto = input('Produto que deseja verificar: ')
